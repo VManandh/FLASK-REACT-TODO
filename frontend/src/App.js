@@ -75,6 +75,7 @@ function App() {
           value={title}
           onChange={(e) => setTitle(e.target.value)}
           placeholder="Enter task..."
+          autoComplete="off"
         />
         <button className="btn btn-primary" type="submit">Add</button>
       </form>

@@ -8,12 +8,6 @@ CORS(app)
 todos = []  # In memory list
 next_id = 1
 
-@app.route("/")# TESTING PURPOSE
-def home():
-    return "Flask is running!"
-
-
-
 # Get all todos
 @app.route("/todos", methods=["GET"])
 def get_todos():
@@ -52,3 +46,4 @@ def delete_todo(todo_id):
 
 if __name__ == "__main__":
     app.run(debug=True)
+
