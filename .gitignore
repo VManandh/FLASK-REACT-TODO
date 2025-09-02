@@ -1,0 +1,16 @@
+﻿# Node / React
+/frontend/node_modules
+/frontend/build
+/frontend/dist
+
+# Python
+__pycache__/
+*.py[cod]
+BACKEND/venv/
+.env
+
+# System / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
